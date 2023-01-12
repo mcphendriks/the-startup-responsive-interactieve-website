@@ -1,0 +1,72 @@
+:root {
+  --Primary-clr: #5e356f;
+  --Secondary-clr: #c4c700;
+  --background-clr: #ffffff;
+  --Tertiary-clr: #e7f5fc;
+  --typografy-clr-h2: #5e356f;
+  --typofrafy-clr-p: #f0ebf1;
+  --section-background: #f9f9e8;
+  --card-border-radius: 0.5rem;
+  --btn-radius: 15px;
+  --typografie-s: 20px;
+  --typografie-m: 22px;
+  --typografie-l: 34px;
+  --margin-top-h2: 3rem;
+  --margin-top-p: 1rem;
+  --box-shadow: 0 4px 0px rgb(0 0 0 / 0.2);
+  --icon-clr: #c4c700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.4em;
+  font-family: ;
+}
+
+svg {
+  color: var(--icon-clr);
+}
+
+h1 {
+  font-size: var(--typografie-l);
+  color: var(--Primary-clr);
+}
+
+h2 {
+  font-size: var(--typografie-m);
+  color: var(--Primary-clr);
+}
+
+h3 {
+  font-size: var(--typografie-s);
+  color: var(--Primary-clr);
+}
+p {
+  color: var(--typofrafy-clr-p);
+}
+header {
+}
+/* main */
+main {
+}
+
+/* section news */
+.section-news {
+}
+
+/* Section agenda */
+.section-agenda {
+}
+
+/* section actual */
+.section-actual {
+}
+
+.footer {
+}

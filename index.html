@@ -22,14 +22,34 @@
         </ul>
         <div class="nav-mobile">
           <button>
-            <img src="docs/assets/icons/menu-2.svg" alt="menu" />Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="18" x2="20" y2="18"></line>
+             </svg>
+             <label>Menu</label>
           </button>
 
           <button>
-            <img src="docs/assets/icons/search.svg" alt="zoek" />Zoek
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <circle cx="10" cy="10" r="7"></circle>
+                <line x1="21" y1="21" x2="15" y2="15"></line>
+             </svg>
+             <label>Zoek</label>
           </button>
         </div>
       </nav>
+    
+      <h1>Vilans Kennisorganisatie voor in de zorg</h1>
+
+      <div class="illustration-animation"></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
+      <div><img src="" alt=""></div>
     </header>
     <!--main-->
     <main>
@@ -46,7 +66,7 @@
       <div><button>Zoek meer</button></div>
     </main>
     <!-- section 1 -->
-    <section>
+    <section class="section-news">
       <h2>Nieuws</h2>
       <ul>
         <li>
@@ -86,13 +106,14 @@
       </ul>
     </section>
     <!-- section 2 -->
-    <section>
+    <section class="section-agenda">
       <h2>Agenda</h2>
       <table>
         <tr>
           <td>15<span>JAN</span></td>
           <td>
             <p>Workshop - Gezondheidsvaardigheden in de huisartsenzorg</p>
+            <p>Kosten: gratis | Tijd: 09:00 tot 13:00</p>
           </td>
           <td>
             <a href="/" alt="link agenda"
@@ -106,6 +127,8 @@
         <tr>
           <td>26<span>JAN</span></td>
           <td><p>Praat mee: gesprekskaarten veilig mobiel blijven</p></td>
+          <p>Kosten: €20,- | Tijd: 17:00 tot 21:00</p>
+        </td>
           <td>
             <a href="/" alt="link agenda"
               ><img
@@ -117,7 +140,9 @@
 
         <tr>
           <td>07<span>FEB</span></td>
-          <td><p>Wzd Café - Alternatieven</p></td>
+          <td><p>Wzd Café - Alternatieven</p>
+            <p>Kosten: gratis | Tijd: 10:00 tot 12:00</p>
+        </td>
           <td>
             <a href="/" alt="link agenda"
               ><img
@@ -130,7 +155,7 @@
       <div><button>Bekijk hele agenda</button></div>
     </section>
     <!-- Section 3 -->
-    <section>
+    <section class="section-actual">
       <h2>Actueel</h2>
       <ul>
         <li>
@@ -178,20 +203,32 @@
         <li>Contact</li>
       </ul>
       <div>
-        <a href="/" alt="link-facebook"
-          ><img src="docs/assets/icons/brand-facebook.svg" alt="icon-facebook"
-        /></a>
+        <a href="/" alt="link-facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"></path>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+             </svg></a>
         <a href="/" alt="link-twitter"
-          ><img src="docs/assets/icons/brand-twitter.svg" alt="icon-twitter"
-        /></a>
+          ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+         </svg></a>
         <a href="." alt="link-instagram"
-          ><img
-            src="docs/assets/icons/brand-instagram.svg"
-            alt="icon-instagram"
-        /></a>
+          ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+         </svg></a>
         <a href="/" alt="link-linkdin"
-          ><img src="docs/assets/icons/brand-linkedin.svg" alt="icon-linkedin"
-        /></a>
+          ><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            <line x1="8" y1="11" x2="8" y2="16"></line>
+            <line x1="8" y1="8" x2="8" y2="8.01"></line>
+            <line x1="12" y1="16" x2="12" y2="11"></line>
+            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+         </svg></a>
       </div>
       <p>
         Copyright &copy

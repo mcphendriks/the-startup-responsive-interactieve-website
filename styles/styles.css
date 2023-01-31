@@ -38,8 +38,7 @@ svg {
 
 h1,
 h2 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: var(--Primary-clr);
 }
 
@@ -70,6 +69,19 @@ p {
   color: var(--typofrafy-clr-p);
 }
 
+a svg {
+  width: 2em;
+}
+
+.section-filter .link-btn a,
+.section-agenda .link-btn a {
+  background-color: var(--Primary-clr);
+  padding: 0.5em 1em;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
 /* navigation bar  */
 
 header nav {
@@ -82,7 +94,7 @@ header nav {
 }
 
 .logo img {
-  max-width: 5em;
+  width: 5em;
 }
 
 header button {
@@ -100,12 +112,40 @@ header li {
   font-size: var(--typografie-s);
 }
 
+/* Mobile version  */
+
+header button svg {
+  width: 1.4em;
+}
+
+header p {
+  color: var(--Secondary-clr);
+}
 /* main */
-.filter-li {
-  display: flex;
+
+/* section filter */
+.section-filter {
+  text-align: center;
+  color: var(--Primary-clr);
+}
+
+.filter-bar {
+  background-color: var(--Primary-clr);
+  height: 3em;
+  width: 100%;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.filter-bar h3 {
+  color: #fff;
+}
+
+.filter-li {
   flex-wrap: wrap;
-  margin: 0 2em 0;
+  background-color: #f0ebf1;
 }
 
 .filter-li button {

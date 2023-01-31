@@ -5,64 +5,51 @@
     <link rel="stylesheet" href="styles/styles.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home page vilans</title>
+    <title> vilans</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
-          <a href="index.html" alt="back to homepage">
-            <img src="docs/assets/vilans-logo.png" alt="logo" />
+          <a href="index.html">
+            <img src="docs/assets/vilans-logo.png" alt="logo-vilans" />
           </a>
         </div>
+
         <ul class="nav-desktop">
-          <li><a href="/" alt="kennis"></a>Kennis</li>
-          <li><a href="/" alt="over ons"></a>Over ons</li>
-          <li><a href="/" alt="thema's"></a>Thema's</li>
-          <li><a href="/" alt="vilans protocollen"></a>Vilans Protocollen</li>
-          <li><a href="/" alt="contact"></a>Contact</li>
+          <li><a href="/"></a>Kennis</li>
+          <li><a href="/"></a>Over ons</li>
+          <li><a href="/"></a>Thema's</li>
+          <li><a href="/" ></a>Vilans Protocollen</li>
+          <li><a href="/"></a>Contact</li>
         </ul>
-        <div class="nav-mobile">
+        
+        <nav class="nav-mobile">
           <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z"></path>
-              <line x1="4" y1="6" x2="20" y2="6"></line>
-              <line x1="4" y1="12" x2="20" y2="12"></line>
-              <line x1="4" y1="18" x2="20" y2="18"></line>
-            </svg>
-            <label>Menu</label>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4" x2="20" y1="12" y2="12"/>
+                <line x1="4" x2="20" y1="6" y2="6"/>
+                <line x1="4" x2="20" y1="18" y2="18"/>
+                <title>navigeer door de menu balk</title>
+                </svg>
+                
+            <p>Menu</p>
           </button>
 
           <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-search"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z"></path>
-              <circle cx="10" cy="10" r="7"></circle>
-              <line x1="21" y1="21" x2="15" y2="15"></line>
-            </svg>
-            <label>Zoek</label>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" x2="16.65" y1="21" y2="16.65"/>
+                <title>zoek en filter</title>
+                </svg>
+                
+            <p>Zoek</p>
           </button>
-        </div>
       </nav>
-
+    </header>
+    
+    <!--main-->
+    <main>
       <h1>Vilans Kennisorganisatie voor in de zorg</h1>
 
       <div class="illustration-animation"></div>
@@ -71,21 +58,34 @@
       <div><img src="" alt="" /></div>
       <div><img src="" alt="" /></div>
       <div><img src="" alt="" /></div>
-    </header>
-    <!--main-->
-    <main>
-      <h2>Selecteer wat je zoekt</h2>
-      <div class="filter-li">
-        <button>Eerste hulp</button>
-        <button>Verpleeghuiszorg</button>
-        <button>Gehandicaptenzorg</button>
-        <button>Kwaliteit & optimalisatie</button>
-        <button>E-Health</button>
-        <button>Persoonsgericht werken</button>
-      </div>
-
-      <button class="link-btn">Zoek meer</button>
     </main>
+
+    <!-- Section filter  -->
+    <section class="section-filter">
+    
+    <div class="filter-bar">
+        <h3>Uw interesses
+            <span>2</span>
+        </h3>
+        <h3>Wissen
+        <button></button>
+    </h3>
+    </div>
+   
+    <div class="filter-li">
+    <h2>Selecteer wat je zoekt</h2>
+      <button>Eerste hulp</button>
+      <button>Verpleeghuiszorg</button>
+      <button>Gehandicaptenzorg</button>
+      <button>Kwaliteit & optimalisatie</button>
+      <button>E-Health</button>
+      <button>Persoonsgericht werken</button>
+
+      <div class="link-btn"><a>Zoek meer</a></div>
+    </div>
+
+    </section>
+
     <!-- section carousel  -->
     <section class="section-carousel">
       <h2>Nieuws</h2>
@@ -94,49 +94,63 @@
           <img
             class="carousel-img"
             src="docs/assets/vilans weternschap .jpg"
-            alt="image" />
+            alt="oude mevrouw kijkt door een microscoop in een laboratorium  " />
           <p>02-01-2023</p>
           <h3>'Wetenschap en praktijk bij elkaar brengen'</h3>
           <a href="/"
-            >lees meer<img
-              class="arrow-right"
-              src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <Title>lees meer</Title>
+                </svg>
+                </a>
         </li>
         <li>
           <img
             class="carousel-img"
             src="docs/assets/vilans hart.jpg"
-            alt="image" />
+            alt="twee oude mensen omhelzen elkaar" />
           <p>06-01-2023</p>
           <h3>
             'Ook als je oud bent en zorg nodig hebt, wil je aangeraakt worden'
           </h3>
           <a href="/"
-            >lees meer<img src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <title>lees meer</title>
+                </svg>
+                </a>
         </li>
         <li>
           <img
             class="carousel-img"
             src="docs/assets/vilans-tech.jpg"
-            alt="image" />
+            alt="oude meneer kijkt op een ipad " />
           <p>10-01-2023</p>
           <h3>'Update infographic ‘Technologie bij dementie thuis'</h3>
           <a href="/"
-            >lees meer<img src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <title>lees meer</title>
+                </svg>
+                </a>
         </li>
         <li>
           <img
             class="carousel-img"
             src="docs/assets/vilans-zorg.jpg"
-            alt="image" />
+            alt="zorg broeder brengt fruit naar oude meneer" />
           <p>24-02-2023</p>
           <h3>Crowdfunding voor innovatief valpreventieprogramma</h3>
           <a href="/"
-            >lees meer<img src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <title>lees meer</title>
+                </svg>
+                </a>
         </li>
       </ul>
     </section>
@@ -152,11 +166,13 @@
               <p>Kosten: gratis | Tijd: 09:00 tot 13:00</p>
             </td>
             <td>
-              <a href="/" alt="link agenda"
-                ><img
-                  src="docs/assets/icons/arrow-narrow-down.svg"
-                  alt="icon-arrow-down"
-              /></a>
+              <a href="/" 
+                ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="12" x2="12" y1="5" y2="19"/>
+                    <polyline points="19 12 12 19 5 12"/>
+                    <title>Klik voor meer informatie</title>
+                    </svg>
+                    </a>
             </td>
           </tr>
 
@@ -167,11 +183,13 @@
               <p>Kosten: €20,- | Tijd: 17:00 tot 21:00</p>
             </td>
             <td>
-              <a href="/" alt="link agenda"
-                ><img
-                  src="docs/assets/icons/arrow-narrow-down.svg"
-                  alt="icon-arrow-down"
-              /></a>
+              <a href="/" 
+                ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="12" x2="12" y1="5" y2="19"/>
+                    <polyline points="19 12 12 19 5 12"/>
+                    <title>klik voor meer informatie</title>
+                    </svg>
+                    </a>
             </td>
           </tr>
 
@@ -182,59 +200,80 @@
               <p>Kosten: gratis | Tijd: 10:00 tot 12:00</p>
             </td>
             <td>
-              <a href="/" alt="link agenda"
-                ><img
-                  src="docs/assets/icons/arrow-narrow-down.svg"
-                  alt="icon-arrow-down"
-              /></a>
+              <a href="/" 
+                ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="12" x2="12" y1="5" y2="19"/>
+                    <polyline points="19 12 12 19 5 12"/>
+                    <title>klik voor meer informatie</title>
+                    </svg>
+                    </a>
             </td>
           </tr>
         </table>
       </div>
-      <div><button class="link-btn">Bekijk hele agenda</button></div>
+      <div class="link-btn"><a>Bekijk hele agenda</a></div>
     </section>
     <!-- Section 3 -->
     <section class="section-actual">
       <h2>Actueel</h2>
       <ul>
         <li>
-          <img src="docs/assets/image 2.png" alt="image" />
+          <img src="docs/assets/image 2.png" alt="illustratie man in rolstoel" />
           <p>10-01-2023</p>
           <h3>Vilans Protocollen</h3>
           <a href="/"
-            >lees meer<img src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <title>Meer informatie lezen</title>
+                </svg>
+                </a>
         </li>
         <li>
-          <img src="docs/assets/image 3.png" alt="image" />
+          <img src="docs/assets/image 3.png" alt="illustratie ipad" />
           <p>15-01-2023</p>
           <h3>Kennisbank Digitaal zorg</h3>
           <a href="/"
-            >lees meer<img src="docs/assets/icons/arrow-narrow-right.svg"
-          /></a>
+            >lees meer <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+                <title>meer informatie lezen</title>
+                </svg>
+                </a>
         </li>
         <li>
-          <img src="docs/assets/image 2.png" alt="image" />
+          <img src="docs/assets/image 2.png" alt="" />
           <p>20-01-2023</p>
           <h3>Tips</h3>
-          <a href="/"><img src="docs/assets/icons/arrow-narrow-right.svg" /></a>
+          <a href="/">lees meer<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <line x1="5" x2="19" y1="12" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+            <title>meer informatie lezen</title>
+            </svg>
+            </a>
         </li>
         <li>
-          <img src="docs/assets/image 3.png" alt="image" />
+          <img src="docs/assets/image 3.png" alt="" />
           <p>26-01-2023</p>
           <h3>Podcast</h3>
-          <a href="/"><img src="docs/assets/icons/arrow-narrow-right.svg" /></a>
+          <a href="/">lees meer <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <line x1="5" x2="19" y1="12" y2="12"/>
+            <polyline points="12 5 19 12 12 19"/>
+            <title>meer infromatie lezen </title>
+            </svg>
+            </a>
         </li>
       </ul>
-      <div><button class="link-btn">Bekijk meer verhalen</button></div>
+      
+      <div class="link-btn"><a>Bekijk meer verhalen</a></div>
     </section>
 
     <!-- footer -->
     <footer>
       <h2>Samen verbeteren we de zorg</h2>
-      <a href="/" alt="link-nieuwsbrief"
-        ><button>Aanmelden voor de nieuwsbrief</button></a
-      >
+    <button>Aanmelden voor de nieuwsbrief</button>
+      
+
       <ul>
         <li>Onze thema's</li>
         <li>Vacatures</li>
@@ -243,80 +282,33 @@
       </ul>
       <div>
         <!-- Social links -->
-        <a href="/" alt="link-facebook">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-facebook"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z"></path>
-            <path
-              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path></svg
-        ></a>
-        <a href="/" alt="link-twitter"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-twitter"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path
-              d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path></svg
-        ></a>
-        <a href="." alt="link-instagram"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-instagram"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-            <circle cx="12" cy="12" r="3"></circle>
-            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line></svg
-        ></a>
-        <a href="/" alt="link-linkdin"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-brand-linkedin"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-            <line x1="8" y1="11" x2="8" y2="16"></line>
-            <line x1="8" y1="8" x2="8" y2="8.01"></line>
-            <line x1="12" y1="16" x2="12" y2="11"></line>
-            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg
-        ></a>
+        <a href="/"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="m16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+            <title>klik voor linkedin link</title>
+            </svg>
+            </a>
+        <a href="/" ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+            <title>Klik voor twitter link</title></svg>
+            </a>
+        <a href="/" ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            <title>klik voor facebook link </title></svg></a>
+        <a href="/" ><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+            <title>klik voor instagram link</title></svg></a>
       </div>
+
       <p>
         Copyright &copy
         <span id="year"> vilans </span>
         <!--add JS to get the current year trough data function -->
       </p>
+
     </footer>
   </body>
 </html>
